@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif;
+  }
+.top{
+    height: 800px;
+    background-image: url(../123/img/Desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__button{
+        padding-top: 48px;
+        &_b{
+            box-sizing: border-box;
+            border: 1px solid rgb(32, 32, 39);
+            border-radius: 60px;
+            background: rgb(32, 32, 39);
+            width: 247px;
+            height: 66px;
+            &:hover{
+            background-color: #fffefe;
+            &::placeholder{
+                color: #000;
+            }
+            }
+            &::placeholder{
+            color: rgb(255, 255, 255);
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 141.69%;
+            text-align: center;
+            }
+            
+    }
+}
+}
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    &__h1{
+width: 769px;
+color: rgb(32, 32, 39);
+font-size: 64px;
+font-weight: 700;
+line-height: 78px;
+text-align: left;
+padding-top: 196px;
+    }
+    &__p{
+color: rgb(32, 32, 39);
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+width: 720px;
+    }
+}
+.content{
+    padding-top: 107px;
+    background-image: url(../123/img/backgrc\ .png);
+    background-size: cover;
+    height: 1400px;
+}
+.about{
+    &__title{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 24px;
+        &_h1{
+            color: rgb(255, 255, 255);
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 78px;
+            text-align: left;
+        }
+        &_p{
+            color: rgb(255, 255, 255);
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 32px;
+            text-align: left;
+            width: 788px;
+        }
+    }
+}
+.games{
+    padding-top: 75px;
+   
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    &__1{
+        background-color: #fff;
+        border-radius: 30px;
+        width: 378px;
+        &:hover{
+            transform: scale(1.1);
+        }
+        &_img{
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        }
+        &_№{
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 212%;
+            text-align: center;
+            color: rgb(32, 32, 39);
+            border: 1px solid #000;
+            border-radius: 52.58px;
+            background: rgb(247, 247, 247);
+            width: 108px;
+            height: 36px;   
+        }
+        &_p{
+            font-size: 32px;
+            font-weight: 700;
+            line-height: 39px;
+            text-align: left;
+            color: rgb(32, 32, 39);
+        }
+        &_g{
+            padding: 32px;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            gap: 16px;
+            display: flex;
+        }
+    }
+}
+.games1{
+    width: 1200px;
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-bottom: 37px;
+}
+.cen{
+    width: 200px;
+}
+.mar{
+    margin-top: 32px;
+}
