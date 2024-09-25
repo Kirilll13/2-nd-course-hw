@@ -160,7 +160,6 @@ body {
   display: flex;
   gap: 32px;
   flex-wrap: wrap;
-  align-items: flex-start;
   margin-bottom: 37px;
 }
 
