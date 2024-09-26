@@ -10,9 +10,11 @@ body {
 
 .top {
   height: 800px;
-  background-image: url(../2-nd-course-hw/img/Desktop.png);
+  background-color: rgb(225, 255, 143);
+  background-image: url(img/Компоненты\ 1.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position-x: 125px;
+  background-position-y: -331px;
 }
 .top__button {
   padding-top: 48px;
@@ -82,8 +84,11 @@ body {
 
 .content {
   padding-top: 107px;
-  background-image: url(../2-nd-course-hw/img/backgrc\ .png);
-  background-size: cover;
+  background-color: rgb(32, 32, 39);
+  background-image: url(img/Компоненты\ 2.svg);
+  background-repeat: no-repeat;
+  background-position-x: 90px;
+  background-position-y: 92px;
   height: 1400px;
 }
 
@@ -169,4 +174,50 @@ body {
 
 .mar {
   margin-top: 32px;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    width: 343px;
+    background-image: url(img/Компонентыmob.svg);
+    background-repeat: no-repeat;
+    background-position-x: 35px;
+    background-position-y: -108px;
+    background-size: 124%;
+    height: 700px;
+  }
+  .top__button {
+    padding-top: 36px;
+  }
+  .top__button_b {
+    width: 285px;
+    height: 55px;
+    position: relative;
+    left: 45px;
+  }
+  .top__button_b::-moz-placeholder {
+    font-size: 16px;
+  }
+  .top__button_b::placeholder {
+    font-size: 16px;
+  }
+  .head__h1 {
+    font-size: 40px;
+    text-align: center;
+    width: 343px;
+    line-height: 49px;
+  }
+  .head__p {
+    width: 343px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+  }
+  .content {
+    display: none;
+  }
 }/*# sourceMappingURL=style.css.map */

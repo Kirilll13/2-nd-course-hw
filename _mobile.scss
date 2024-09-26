@@ -1,0 +1,51 @@
+@media (max-width:767px){
+    .center{
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .top{
+        width: 343px;
+        background-image: url(img/Компонентыmob.svg);
+        background-repeat: no-repeat;
+        background-position-x: 35px;
+        background-position-y: -108px;
+        background-size: 124%;
+        height: 700px;
+        &__button{
+        padding-top: 36px;
+        &_b{
+        width: 285px;
+        height: 55px;
+        position: relative;
+        left: 45px;
+       
+        &::placeholder{
+            font-size: 16px;
+    }
+}
+}
+}
+
+    .head{
+    &__h1{
+        font-size: 40px;
+        text-align: center;
+        width: 343px;
+        line-height: 49px;
+    }
+    &__p{
+        width: 343px;
+        font-size: 16px;
+        text-align: center;
+        line-height: 20px;
+    }
+}
+
+
+.content{
+  display: none;
+}
+}
+
+
+

@@ -8,9 +8,11 @@
   }
 .top{
     height: 800px;
-    background-image: url(img/Desktop.png);
+    background-color: rgb(225, 255, 143);
+    background-image: url(img/Компоненты\ 1.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-position-x: 125px;
+    background-position-y: -331px;
     &__button{
     padding-top: 48px;
     &_b{
@@ -68,8 +70,11 @@ width: 720px;
 }
 .content{
     padding-top: 107px;
-    background-image: url(img/backgrc\ .png);
-    background-size: cover;
+    background-color: rgb(32, 32, 39);
+    background-image: url(img/Компоненты\ 2.svg);
+    background-repeat: no-repeat;
+    background-position-x: 90px;
+    background-position-y: 92px;
     height: 1400px;
 }
 .about{
@@ -154,3 +159,5 @@ width: 720px;
 .mar{
     margin-top: 32px;
 }
+
+@import 'mobile';
