@@ -43,3 +43,4 @@ const user = {
 //task10
 let K = prompt(`Ваше имя?`);
 alert(`Привет, ${K}`);
+//
