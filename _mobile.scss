@@ -17,8 +17,15 @@
         width: 285px;
         height: 55px;
         position: relative;
-        left: 45px;
-       
+        left: 26px;
+        &:hover{
+            background-color: rgb(32, 32, 39);
+            &::placeholder{
+                color: #fbf9f9;
+                font-family: Montserrat;
+                font-size: 16px;
+            }
+            }
         &::placeholder{
             font-size: 16px;
     }
@@ -30,11 +37,12 @@
     &__h1{
         font-size: 40px;
         text-align: center;
-        width: 343px;
+        width: 322px;
         line-height: 49px;
+        padding-top: 139px;
     }
     &__p{
-        width: 343px;
+        width: 322px;
         font-size: 16px;
         text-align: center;
         line-height: 20px;

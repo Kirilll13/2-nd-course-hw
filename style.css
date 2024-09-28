@@ -197,7 +197,20 @@ body {
     width: 285px;
     height: 55px;
     position: relative;
-    left: 45px;
+    left: 26px;
+  }
+  .top__button_b:hover {
+    background-color: rgb(32, 32, 39);
+  }
+  .top__button_b:hover::-moz-placeholder {
+    color: #fbf9f9;
+    font-family: Montserrat;
+    font-size: 16px;
+  }
+  .top__button_b:hover::placeholder {
+    color: #fbf9f9;
+    font-family: Montserrat;
+    font-size: 16px;
   }
   .top__button_b::-moz-placeholder {
     font-size: 16px;
@@ -208,11 +221,12 @@ body {
   .head__h1 {
     font-size: 40px;
     text-align: center;
-    width: 343px;
+    width: 322px;
     line-height: 49px;
+    padding-top: 139px;
   }
   .head__p {
-    width: 343px;
+    width: 322px;
     font-size: 16px;
     text-align: center;
     line-height: 20px;
