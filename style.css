@@ -20,29 +20,28 @@ body {
 .button {
   padding-top: 48px;
 }
-.button_b {
-  text-decoration: none;
-  display: inline-block;
+.button__b {
+  display: block;
   box-sizing: border-box;
   border: 1px solid rgb(32, 32, 39);
   border-radius: 60px;
   background: rgb(32, 32, 39);
   width: 247px;
   height: 66px;
+  text-decoration: none;
 }
-.button_b:hover {
+.button__b:hover {
   background-color: #fffefe;
 }
-
-.hov {
+.button__text {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-weight: 600;
   line-height: 141.69%;
   text-align: center;
-  padding-top: 12px;
+  margin-top: 12px;
 }
-.hov:hover {
+.button__text:hover {
   color: #000;
 }
 
@@ -93,14 +92,14 @@ body {
   flex-wrap: nowrap;
   gap: 24px;
 }
-.about__title_h1 {
+.about__title {
   color: rgb(255, 255, 255);
   font-size: 64px;
   font-weight: 700;
   line-height: 78px;
   text-align: left;
 }
-.about__title_p {
+.about__p {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-weight: 400;
@@ -116,19 +115,26 @@ body {
   flex-wrap: wrap;
   align-items: flex-start;
 }
-.games__1 {
+.games__card {
   background-color: #fff;
   border-radius: 30px;
   width: 378px;
 }
-.games__1:hover {
+.games__card:hover {
   transform: scale(1.1);
 }
-.games__1_img {
+.games__card_img {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.games__1_g-n {
+.games__card_text {
+  padding: 32px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 16px;
+  display: flex;
+}
+.games__card_text-n {
   font-size: 16px;
   font-weight: 500;
   line-height: 212%;
@@ -140,19 +146,12 @@ body {
   width: 108px;
   height: 36px;
 }
-.games__1_g-p {
+.games__card_text-p {
   font-size: 32px;
   font-weight: 700;
   line-height: 39px;
   text-align: left;
   color: rgb(32, 32, 39);
-}
-.games__1_g {
-  padding: 32px;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  gap: 16px;
-  display: flex;
 }
 
 .games1 {
@@ -177,7 +176,6 @@ body {
     padding-right: 16px;
   }
   .top {
-    width: 343px;
     background-image: url(img/Компонентыmob.svg);
     background-repeat: no-repeat;
     background-position-x: 35px;
@@ -185,44 +183,28 @@ body {
     background-size: 124%;
     height: 700px;
   }
-  .top__button {
+  .button {
     padding-top: 36px;
   }
-  .top__button_b {
+  .button__b {
     width: 285px;
     height: 55px;
     position: relative;
-    left: 26px;
+    left: 16px;
   }
-  .top__button_b:hover {
+  .button__b:hover {
     background-color: rgb(32, 32, 39);
   }
-  .top__button_b:hover::-moz-placeholder {
-    color: #fbf9f9;
+  .button__text {
     font-family: Montserrat;
-    font-size: 16px;
-  }
-  .top__button_b:hover::placeholder {
-    color: #fbf9f9;
-    font-family: Montserrat;
-    font-size: 16px;
-  }
-  .top__button_b::-moz-placeholder {
-    font-size: 16px;
-  }
-  .top__button_b::placeholder {
-    font-size: 16px;
-  }
-  .hov {
-    color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 600;
     line-height: 141.69%;
+    letter-spacing: 0%;
     text-align: center;
-    padding-top: 12px;
   }
-  .hov:hover {
-    color: #f7f6f6;
+  .button__text:hover {
+    color: rgb(255, 255, 255);
   }
   .head__h1 {
     font-size: 40px;

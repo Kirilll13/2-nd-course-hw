@@ -1,6 +1,7 @@
 
 // task 1
-let a = 20;
+let a = 10;
+a = 20;
 alert(a);
 //task 2
 let ip = 2007;
@@ -36,10 +37,11 @@ let age = Number(prompt(`Сколько вам лет?`));
 alert(age);
 //task 9
 const user = {
-    name: 'Kirill',
-    age: 24,
-    isAdmin: true
+   name: 'Kirill',
+   age: 24,
+   isAdmin: true
 };
 //task10
 let K = prompt(`Ваше имя?`);
 alert(`Привет, ${K}`);
+//

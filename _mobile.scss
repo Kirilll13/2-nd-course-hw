@@ -1,67 +1,54 @@
-@media (max-width:767px){
-    .center{
+    @media (max-width:767px){
+        .center{
         padding-left: 16px;
         padding-right: 16px;
-    }
-    .top{
-        width: 343px;
+                }
+        .top{
         background-image: url(img/Компонентыmob.svg);
         background-repeat: no-repeat;
         background-position-x: 35px;
         background-position-y: -108px;
         background-size: 124%;
-        height: 700px;
-        &__button{
+        height: 700px;}
+        .button{
         padding-top: 36px;
-        &_b{
+        &__b{
         width: 285px;
         height: 55px;
         position: relative;
-        left: 26px;
+        left: 16px;
         &:hover{
-            background-color: rgb(32, 32, 39);
-            &::placeholder{
-                color: #fbf9f9;
-                font-family: Montserrat;
-                font-size: 16px;
+        background-color: rgb(32, 32, 39);}}
+        &__text{
+         font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 141.69%;
+        letter-spacing: 0%;
+        text-align: center;
+         &:hover{
+        color: rgb(255, 255, 255);
+         }
+        }
             }
-            }
-        &::placeholder{
-            font-size: 16px;
-    }
-}
-}
-}
-.hov{
-    color: rgb(255, 255, 255);
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 141.69%;
-    text-align: center;
-    padding-top: 12px;
-    &:hover{
-        color: #f7f6f6;
-    }   
-}
-
-    .head{
-    &__h1{
+        .head{
+        &__h1{
         font-size: 40px;
         text-align: center;
         width: 322px;
         line-height: 49px;
         padding-top: 139px;
-    }
-    &__p{
-        width: 322px;
-        font-size: 16px;
-        text-align: center;
-        line-height: 20px;
-    }
-}
-
-
-.content{
-  display: none;
-}
-}
+        }
+        &__p{
+            width: 322px;
+            font-size: 16px;
+            text-align: center;
+            line-height: 20px;
+        }
+        }
+            
+            
+            .content{
+              display: none;
+            }
+            }

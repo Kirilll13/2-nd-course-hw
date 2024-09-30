@@ -15,32 +15,32 @@
     background-position-y: -331px;}
     .button{
     padding-top: 48px;
-    &_b{
-        text-decoration: none;
-    display: inline-block;
+    &__b{
+    display: block;
     box-sizing: border-box;
     border: 1px solid rgb(32, 32, 39);
     border-radius: 60px;
     background: rgb(32, 32, 39);
     width: 247px;
-            height: 66px;
+    height: 66px;
+    text-decoration: none;
             &:hover{
-            background-color: #fffefe;
-            }   
+            background-color: #fffefe;}}
+            
+           &__text{
+            color: rgb(255, 255, 255);
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 141.69%;
+            text-align: center;
+            margin-top: 12px;
+            &:hover{
+                color: #000;
+            }
+            }
+            
     }
-}
 
-.hov{
-    color: rgb(255, 255, 255);
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 141.69%;
-    text-align: center;
-    padding-top: 12px;
-    &:hover{
-        color: #000;
-    }   
-}
 .center {
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
@@ -79,20 +79,19 @@ width: 720px;
     background-position-y: 92px;
     height: 1400px;
 }
-
-    .about{
+.about{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     gap: 24px;
-        &__title_h1{
+        &__title{
             color: rgb(255, 255, 255);
             font-size: 64px;
             font-weight: 700;
             line-height: 78px;
             text-align: left;
         }
-        &__title_p{
+        &__p{
             color: rgb(255, 255, 255);
             font-size: 24px;
             font-weight: 400;
@@ -108,7 +107,7 @@ width: 720px;
     gap: 32px;
     flex-wrap: wrap;
     align-items: flex-start;
-    &__1{
+    &__card{
         background-color: #fff;
         border-radius: 30px;
         width: 378px;
@@ -118,33 +117,32 @@ width: 720px;
         &_img{
         background-repeat: no-repeat;
         background-size: cover;
-        
         }
-        &_g-n{
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 212%;
-            text-align: center;
-            color: rgb(32, 32, 39);
-            border: 1px solid #000;
-            border-radius: 52.58px;
-            background: rgb(247, 247, 247);
-            width: 108px;
-            height: 36px;   
-        }
-        &_g-p{
-            font-size: 32px;
-            font-weight: 700;
-            line-height: 39px;
-            text-align: left;
-            color: rgb(32, 32, 39);
-        }
-        &_g{
+        &_text{
             padding: 32px;
             flex-direction: column;
             flex-wrap: nowrap;
             gap: 16px;
             display: flex;
+            &-n{
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 212%;
+                text-align: center;
+                color: rgb(32, 32, 39);
+                border: 1px solid #000;
+                border-radius: 52.58px;
+                background: rgb(247, 247, 247);
+                width: 108px;
+                height: 36px;   
+            }
+            &-p{
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 39px;
+                text-align: left;
+                color: rgb(32, 32, 39);
+            }
         }
     }
 }
