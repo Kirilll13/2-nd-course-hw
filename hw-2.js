@@ -1,6 +1,7 @@
 
 // task 1
-let a = 1020;
+ let a = 10;
+ a = 20;
 alert(a);
 //task 2
 let ip = 2007;
@@ -19,9 +20,9 @@ alert(ten/two);
 let result = 2**5;
 alert(result);
 //task6
-let A = 9;
+let а = 9;
 let b = 2;
-alert(A/b);
+alert(а/b);
 //task 7
 let num = 1;
 num+= 5;
@@ -38,7 +39,7 @@ alert(age);
 const user = {
     name: 'Kirill',
     age: 24,
-    "isAdmin": true
+    isAdmin: true
 };
 //task10
 let K = prompt(`Ваше имя?`);
