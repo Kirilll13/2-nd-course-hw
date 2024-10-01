@@ -1,7 +1,8 @@
 
 // task 1
  let a = 10;
- a = 20;
+alert(a);
+a = 20;
 alert(a);
 //task 2
 let ip = 2007;
