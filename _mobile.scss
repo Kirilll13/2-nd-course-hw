@@ -15,8 +15,7 @@
         &__b{
         width: 285px;
         height: 55px;
-        position: relative;
-        left: 16px;
+        margin-left: 28px;
         &:hover{
         background-color: rgb(32, 32, 39);}}
         &__text{
@@ -50,5 +49,8 @@
             
             .content{
               display: none;
+            }
+            .minigames{
+                display: none;
             }
             }
