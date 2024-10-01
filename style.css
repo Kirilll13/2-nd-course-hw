@@ -123,18 +123,20 @@ body {
 .games__card:hover {
   transform: scale(1.1);
 }
-.games__card_img {
+
+.card__img {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.games__card_text {
+
+.card__text {
   padding: 32px;
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 16px;
   display: flex;
 }
-.games__card_text-n {
+.card__text-n {
   font-size: 16px;
   font-weight: 500;
   line-height: 212%;
@@ -146,7 +148,7 @@ body {
   width: 108px;
   height: 36px;
 }
-.games__card_text-p {
+.card__text-p {
   font-size: 32px;
   font-weight: 700;
   line-height: 39px;
@@ -207,14 +209,16 @@ body {
   gap: 36px;
   padding: 48px;
 }
-.game__card_h {
+
+.card__h {
   color: rgb(32, 32, 39);
   font-size: 48px;
   font-weight: 700;
   line-height: 59px;
   text-align: left;
 }
-.game__card_p {
+
+.card__p {
   color: rgb(32, 32, 39);
   font-size: 24px;
   font-weight: 400;
@@ -222,7 +226,8 @@ body {
   text-align: left;
   padding-right: 81px;
 }
-.game__card_a {
+
+.card__a {
   display: block;
   border-radius: 60px;
   background: rgb(32, 32, 39);
@@ -232,17 +237,17 @@ body {
   text-decoration: none;
   border: 1px solid rgb(32, 32, 39);
 }
-.game__card_a:hover {
+.card__a:hover {
   background-color: #fff;
 }
-.game__card_a-p {
+.card__a-p {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-weight: 600;
   line-height: 141.69%;
   text-align: center;
 }
-.game__card_a-p:hover {
+.card__a-p:hover {
   color: #000;
 }
 
