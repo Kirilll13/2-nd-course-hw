@@ -106,19 +106,19 @@ width: 720px;
     display: flex;
     gap: 32px;
     flex-wrap: wrap;
-    align-items: flex-start;
-    &__card{
+    align-items: flex-start;}
+    .gamecard{
         background-color: #fff;
         border-radius: 30px;
         width: 378px;
         &:hover{
             transform: scale(1.1);
-        }}}
-        .card__img{
+        }
+        &__img{
         background-repeat: no-repeat;
         background-size: cover;
         }
-        .card__text{
+        &__text{
             padding: 32px;
             flex-direction: column;
             flex-wrap: nowrap;
@@ -144,7 +144,7 @@ width: 720px;
                 color: rgb(32, 32, 39);
             }
         }
-    
+    }
 
 .games1{
     width: 1200px;
@@ -186,20 +186,20 @@ flex-direction: row-reverse;
 &__img{
 width: 600px;
 height: 500px;
- }
- &__card{
+ }}
+ .gamecard2{
 display: flex;
 flex-direction: column;
 gap: 36px;
-padding: 48px;}}
-.card__h{
+padding: 48px;
+&__h{
 color: rgb(32, 32, 39);
 font-size: 48px;
 font-weight: 700;
 line-height: 59px;
 text-align: left;
 }
-.card__p{
+&__p{
 color: rgb(32, 32, 39);
 font-size: 24px;
 font-weight: 400;
@@ -207,7 +207,7 @@ line-height: 32px;
 text-align: left;
 padding-right: 81px;
 }
-.card__a{
+&__a{
 display: block;
 border-radius: 60px;
 background: rgb(32, 32, 39);
@@ -230,7 +230,7 @@ color: #000
 }
 }
 }
- 
+ } 
 
 .game1{
     display: flex;

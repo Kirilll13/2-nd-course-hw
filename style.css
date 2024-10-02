@@ -115,28 +115,27 @@ body {
   flex-wrap: wrap;
   align-items: flex-start;
 }
-.games__card {
+
+.gamecard {
   background-color: #fff;
   border-radius: 30px;
   width: 378px;
 }
-.games__card:hover {
+.gamecard:hover {
   transform: scale(1.1);
 }
-
-.card__img {
+.gamecard__img {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.card__text {
+.gamecard__text {
   padding: 32px;
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 16px;
   display: flex;
 }
-.card__text-n {
+.gamecard__text-n {
   font-size: 16px;
   font-weight: 500;
   line-height: 212%;
@@ -148,7 +147,7 @@ body {
   width: 108px;
   height: 36px;
 }
-.card__text-p {
+.gamecard__text-p {
   font-size: 32px;
   font-weight: 700;
   line-height: 39px;
@@ -203,22 +202,21 @@ body {
   width: 600px;
   height: 500px;
 }
-.game__card {
+
+.gamecard2 {
   display: flex;
   flex-direction: column;
   gap: 36px;
   padding: 48px;
 }
-
-.card__h {
+.gamecard2__h {
   color: rgb(32, 32, 39);
   font-size: 48px;
   font-weight: 700;
   line-height: 59px;
   text-align: left;
 }
-
-.card__p {
+.gamecard2__p {
   color: rgb(32, 32, 39);
   font-size: 24px;
   font-weight: 400;
@@ -226,8 +224,7 @@ body {
   text-align: left;
   padding-right: 81px;
 }
-
-.card__a {
+.gamecard2__a {
   display: block;
   border-radius: 60px;
   background: rgb(32, 32, 39);
@@ -237,17 +234,17 @@ body {
   text-decoration: none;
   border: 1px solid rgb(32, 32, 39);
 }
-.card__a:hover {
+.gamecard2__a:hover {
   background-color: #fff;
 }
-.card__a-p {
+.gamecard2__a-p {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-weight: 600;
   line-height: 141.69%;
   text-align: center;
 }
-.card__a-p:hover {
+.gamecard2__a-p:hover {
   color: #000;
 }
 
