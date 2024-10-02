@@ -12,10 +12,11 @@
         height: 700px;}
         .button{
         padding-top: 36px;
+        display: flex;
+        justify-content: center;
         &__b{
         width: 285px;
         height: 55px;
-        margin-left: 28px;
         &:hover{
         background-color: rgb(32, 32, 39);}}
         &__text{
@@ -31,6 +32,7 @@
         }
             }
         .head{
+        align-items: center;
         &__h1{
         font-size: 40px;
         text-align: center;
@@ -47,10 +49,18 @@
         }
             
             
-            .content{
-              display: none;
-            }
-            .minigames{
-                display: none;
-            }
-            }
+ .content{
+  display: none;
+}
+.minigames{
+    display: none;
+ }
+.footer{
+    height: 100px;
+&__p{    
+font-size: 16px;
+font-weight: 600;
+padding-top: 34px;
+}
+}
+ }
