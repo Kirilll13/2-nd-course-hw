@@ -18,7 +18,7 @@ body {
 }
 
 .button {
-  padding-top: 48px;
+  padding-top: 24px;
 }
 .button__b {
   display: block;
@@ -285,16 +285,16 @@ body {
     background-repeat: no-repeat;
     background-position-x: 35px;
     background-position-y: -108px;
-    background-size: 124%;
     height: 700px;
   }
   .button {
-    padding-top: 36px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: center;
   }
   .button__b {
     width: 285px;
     height: 55px;
-    margin-left: 28px;
   }
   .button__b:hover {
     background-color: rgb(32, 32, 39);
@@ -310,15 +310,18 @@ body {
   .button__text:hover {
     color: rgb(255, 255, 255);
   }
+  .head {
+    align-items: center;
+  }
   .head__h1 {
     font-size: 40px;
     text-align: center;
-    width: 322px;
+    width: 262px;
     line-height: 49px;
     padding-top: 139px;
   }
   .head__p {
-    width: 322px;
+    width: 296px;
     font-size: 16px;
     text-align: center;
     line-height: 20px;
@@ -328,5 +331,13 @@ body {
   }
   .minigames {
     display: none;
+  }
+  .footer {
+    height: 100px;
+  }
+  .footer__p {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 34px;
   }
 }/*# sourceMappingURL=style.css.map */
