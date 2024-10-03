@@ -8,35 +8,39 @@
   }
 .top{
     height: 800px;
-    background-image: url(../2-nd-course-hw/img/Desktop.png);
+    background-color: rgb(225, 255, 143);
+    background-image: url(img/Компоненты\ 1.png);
     background-repeat: no-repeat;
-    background-size: cover;
-    &__button{
+    background-position-x: 125px;
+    background-position-y: -331px;}
+    .button{
     padding-top: 48px;
-    &_b{
+    &__b{
+    display: block;
     box-sizing: border-box;
     border: 1px solid rgb(32, 32, 39);
     border-radius: 60px;
     background: rgb(32, 32, 39);
     width: 247px;
-            height: 66px;
+    height: 66px;
+    text-decoration: none;
             &:hover{
-            background-color: #fffefe;
-            &::placeholder{
-                color: #000;
-            }
-            }
-            &::placeholder{
+            background-color: #fffefe;}}
+            
+           &__text{
             color: rgb(255, 255, 255);
             font-size: 24px;
             font-weight: 600;
             line-height: 141.69%;
             text-align: center;
+            margin-top: 12px;
+            &:hover{
+                color: #000;
+            }
             }
             
     }
-}
-}
+
 .center {
     padding-left: calc(50% - 600px);
     padding-right: calc(50% - 600px);
@@ -68,24 +72,26 @@ width: 720px;
 }
 .content{
     padding-top: 107px;
-    background-image: url(../2-nd-course-hw/img/backgrc\ .png);
-    background-size: cover;
-    height: 1400px;
+    background-color: rgb(32, 32, 39);
+    background-image: url(img/Компоненты\ 2.svg);
+    background-repeat: no-repeat;
+    background-position-x: 90px;
+    background-position-y: 92px;
+    height: 1470px;
 }
 .about{
-    &__title{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     gap: 24px;
-        &_h1{
+        &__title{
             color: rgb(255, 255, 255);
             font-size: 64px;
             font-weight: 700;
             line-height: 78px;
             text-align: left;
         }
-        &_p{
+        &__p{
             color: rgb(255, 255, 255);
             font-size: 24px;
             font-weight: 400;
@@ -94,59 +100,57 @@ width: 720px;
             width: 788px;
         }
     }
-}
+
 .games{
     padding-top: 75px;
     display: flex;
     gap: 32px;
     flex-wrap: wrap;
-    align-items: flex-start;
-    &__1{
+    align-items: flex-start;}
+    .gamecard{
         background-color: #fff;
         border-radius: 30px;
         width: 378px;
         &:hover{
             transform: scale(1.1);
         }
-        &_img{
+        &__img{
         background-repeat: no-repeat;
         background-size: cover;
-        
         }
-        &_№{
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 212%;
-            text-align: center;
-            color: rgb(32, 32, 39);
-            border: 1px solid #000;
-            border-radius: 52.58px;
-            background: rgb(247, 247, 247);
-            width: 108px;
-            height: 36px;   
-        }
-        &_p{
-            font-size: 32px;
-            font-weight: 700;
-            line-height: 39px;
-            text-align: left;
-            color: rgb(32, 32, 39);
-        }
-        &_g{
+        &__text{
             padding: 32px;
             flex-direction: column;
             flex-wrap: nowrap;
             gap: 16px;
             display: flex;
+            &-n{
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 212%;
+                text-align: center;
+                color: rgb(32, 32, 39);
+                border: 1px solid #000;
+                border-radius: 52.58px;
+                background: rgb(247, 247, 247);
+                width: 108px;
+                height: 36px;   
+            }
+            &-p{
+                font-size: 32px;
+                font-weight: 700;
+                line-height: 39px;
+                text-align: left;
+                color: rgb(32, 32, 39);
+            }
         }
     }
-}
+
 .games1{
     width: 1200px;
     display: flex;
     gap: 32px;
     flex-wrap: wrap;
-    align-items: flex-start;
     margin-bottom: 37px;
 }
 .cen{
@@ -155,3 +159,100 @@ width: 720px;
 .mar{
     margin-top: 32px;
 }
+.minigames{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-image: url(img/Компоненты\ 4.svg);
+    background-repeat: no-repeat;
+    height: 3500px;
+    background-color: rgb(32, 32, 39);
+    background-position-x: 1300px;
+    background-position-y: 32px;
+}
+.headgame{
+color: rgb(255, 255, 255);
+font-size: 64px;
+font-weight: 700;
+line-height: 78px;
+text-align: left;
+margin-bottom: 40px;
+}
+.game{
+display: flex;
+border-radius: 44px;
+background-color: #fff;
+flex-direction: row-reverse;
+&__img{
+width: 600px;
+height: 500px;
+ }}
+ .gamecard2{
+display: flex;
+flex-direction: column;
+gap: 36px;
+padding: 48px;
+&__h{
+color: rgb(32, 32, 39);
+font-size: 48px;
+font-weight: 700;
+line-height: 59px;
+text-align: left;
+}
+&__p{
+color: rgb(32, 32, 39);
+font-size: 24px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+padding-right: 81px;
+}
+&__a{
+display: block;
+border-radius: 60px;
+background: rgb(32, 32, 39);
+width: 247px;
+height: 40px;
+padding: 16px 28px 16px 28px;
+text-decoration: none;
+border: 1px solid rgb(32, 32, 39);
+&:hover{
+background-color: #fff;
+}
+&-p{
+color: rgb(255, 255, 255);
+font-size: 24px;
+font-weight: 600;
+line-height: 141.69%;
+text-align: center;
+&:hover{
+color: #000
+}
+}
+}
+ } 
+
+.game1{
+    display: flex;
+    border-radius: 44px;
+    background-color: #fff;
+}
+.kamb{
+    padding-right: 81px;
+}
+.gen{
+padding-right: 0px;
+}
+.footer{
+height: 150px;
+background: rgb(189, 237, 53);
+&__p{
+color: rgb(0, 0, 0);
+font-size: 24px;
+font-weight: 600;
+line-height: 29px;
+text-align: center;
+padding-top: 60px;
+}
+}
+@import 'mobile';

@@ -10,43 +10,39 @@ body {
 
 .top {
   height: 800px;
-  background-image: url(../2-nd-course-hw/img/Desktop.png);
+  background-color: rgb(225, 255, 143);
+  background-image: url(img/Компоненты\ 1.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position-x: 125px;
+  background-position-y: -331px;
 }
-.top__button {
+
+.button {
   padding-top: 48px;
 }
-.top__button_b {
+.button__b {
+  display: block;
   box-sizing: border-box;
   border: 1px solid rgb(32, 32, 39);
   border-radius: 60px;
   background: rgb(32, 32, 39);
   width: 247px;
   height: 66px;
+  text-decoration: none;
 }
-.top__button_b:hover {
+.button__b:hover {
   background-color: #fffefe;
 }
-.top__button_b:hover::-moz-placeholder {
-  color: #000;
-}
-.top__button_b:hover::placeholder {
-  color: #000;
-}
-.top__button_b::-moz-placeholder {
+.button__text {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-weight: 600;
   line-height: 141.69%;
   text-align: center;
+  margin-top: 12px;
 }
-.top__button_b::placeholder {
-  color: rgb(255, 255, 255);
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 141.69%;
-  text-align: center;
+.button__text:hover {
+  color: #000;
 }
 
 .center {
@@ -82,25 +78,28 @@ body {
 
 .content {
   padding-top: 107px;
-  background-image: url(../2-nd-course-hw/img/backgrc\ .png);
-  background-size: cover;
-  height: 1400px;
+  background-color: rgb(32, 32, 39);
+  background-image: url(img/Компоненты\ 2.svg);
+  background-repeat: no-repeat;
+  background-position-x: 90px;
+  background-position-y: 92px;
+  height: 1470px;
 }
 
-.about__title {
+.about {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 24px;
 }
-.about__title_h1 {
+.about__title {
   color: rgb(255, 255, 255);
   font-size: 64px;
   font-weight: 700;
   line-height: 78px;
   text-align: left;
 }
-.about__title_p {
+.about__p {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-weight: 400;
@@ -116,19 +115,27 @@ body {
   flex-wrap: wrap;
   align-items: flex-start;
 }
-.games__1 {
+
+.gamecard {
   background-color: #fff;
   border-radius: 30px;
   width: 378px;
 }
-.games__1:hover {
+.gamecard:hover {
   transform: scale(1.1);
 }
-.games__1_img {
+.gamecard__img {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.games__1_№ {
+.gamecard__text {
+  padding: 32px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 16px;
+  display: flex;
+}
+.gamecard__text-n {
   font-size: 16px;
   font-weight: 500;
   line-height: 212%;
@@ -140,19 +147,12 @@ body {
   width: 108px;
   height: 36px;
 }
-.games__1_p {
+.gamecard__text-p {
   font-size: 32px;
   font-weight: 700;
   line-height: 39px;
   text-align: left;
   color: rgb(32, 32, 39);
-}
-.games__1_g {
-  padding: 32px;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  gap: 16px;
-  display: flex;
 }
 
 .games1 {
@@ -160,7 +160,6 @@ body {
   display: flex;
   gap: 32px;
   flex-wrap: wrap;
-  align-items: flex-start;
   margin-bottom: 37px;
 }
 
@@ -170,4 +169,176 @@ body {
 
 .mar {
   margin-top: 32px;
+}
+
+.minigames {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background-image: url(img/Компоненты\ 4.svg);
+  background-repeat: no-repeat;
+  height: 3500px;
+  background-color: rgb(32, 32, 39);
+  background-position-x: 1300px;
+  background-position-y: 32px;
+}
+
+.headgame {
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+.game {
+  display: flex;
+  border-radius: 44px;
+  background-color: #fff;
+  flex-direction: row-reverse;
+}
+.game__img {
+  width: 600px;
+  height: 500px;
+}
+
+.gamecard2 {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  padding: 48px;
+}
+.gamecard2__h {
+  color: rgb(32, 32, 39);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  text-align: left;
+}
+.gamecard2__p {
+  color: rgb(32, 32, 39);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  padding-right: 81px;
+}
+.gamecard2__a {
+  display: block;
+  border-radius: 60px;
+  background: rgb(32, 32, 39);
+  width: 247px;
+  height: 40px;
+  padding: 16px 28px 16px 28px;
+  text-decoration: none;
+  border: 1px solid rgb(32, 32, 39);
+}
+.gamecard2__a:hover {
+  background-color: #fff;
+}
+.gamecard2__a-p {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 141.69%;
+  text-align: center;
+}
+.gamecard2__a-p:hover {
+  color: #000;
+}
+
+.game1 {
+  display: flex;
+  border-radius: 44px;
+  background-color: #fff;
+}
+
+.kamb {
+  padding-right: 81px;
+}
+
+.gen {
+  padding-right: 0px;
+}
+
+.footer {
+  height: 150px;
+  background: rgb(189, 237, 53);
+}
+.footer__p {
+  color: rgb(0, 0, 0);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: center;
+  padding-top: 60px;
+}
+
+@media (max-width: 767px) {
+  .center {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .top {
+    background-image: url(img/Компонентыmob.svg);
+    background-repeat: no-repeat;
+    background-position-x: 35px;
+    background-position-y: -108px;
+    background-size: 124%;
+    height: 700px;
+  }
+  .button {
+    padding-top: 36px;
+    display: flex;
+    justify-content: center;
+  }
+  .button__b {
+    width: 285px;
+    height: 55px;
+  }
+  .button__b:hover {
+    background-color: rgb(32, 32, 39);
+  }
+  .button__text {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 141.69%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .button__text:hover {
+    color: rgb(255, 255, 255);
+  }
+  .head {
+    align-items: center;
+  }
+  .head__h1 {
+    font-size: 40px;
+    text-align: center;
+    width: 322px;
+    line-height: 49px;
+    padding-top: 139px;
+  }
+  .head__p {
+    width: 322px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+  }
+  .content {
+    display: none;
+  }
+  .minigames {
+    display: none;
+  }
+  .footer {
+    height: 100px;
+  }
+  .footer__p {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 34px;
+  }
 }/*# sourceMappingURL=style.css.map */
