@@ -1,11 +1,11 @@
 //task 1
 let psassword = 'пароль';
 let a = prompt('Введите пароль');
-psassword >= a ? console.log('Пароль введен верно') : console.log('Пароль введен неправильно');
+psassword = a ? console.log('Пароль введен верно') : console.log('Пароль введен неправильно');
 //task2
 let c = 2;
-if(c > 0 && c < 10)
-{console.log('Верно');
+if (c > 0 && c < 10)
+{ console.log('Верно');
 } else{console.log('неверно');
 }
 //task3

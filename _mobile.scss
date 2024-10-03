@@ -1,66 +1,66 @@
-    @media (max-width:767px){
-        .center{
-        padding-left: 16px;
-        padding-right: 16px;
-                }
-        .top{
-        background-image: url(img/Компонентыmob.svg);
-        background-repeat: no-repeat;
-        background-position-x: 35px;
-        background-position-y: -108px;
-        background-size: 124%;
-        height: 700px;}
-        .button{
-        padding-top: 36px;
-        display: flex;
-        justify-content: center;
-        &__b{
-        width: 285px;
-        height: 55px;
-        &:hover{
-        background-color: rgb(32, 32, 39);}}
-        &__text{
-         font-family: Montserrat;
-        font-size: 16px;
-        font-weight: 600;
-        line-height: 141.69%;
-        letter-spacing: 0%;
-        text-align: center;
-         &:hover{
-        color: rgb(255, 255, 255);
-         }
-        }
+
+@media (max-width:767px){
+    .center{
+    padding-left: 16px;
+    padding-right: 16px;
             }
-        .head{
-        align-items: center;
-        &__h1{
-        font-size: 40px;
+    .top{
+    background-image: url(img/Компонентыmob.svg);
+    background-repeat: no-repeat;
+    background-position-x: 35px;
+    background-position-y: -108px;
+    height: 700px;}
+    .button{
+    padding-top: 36px;
+    display: flex;
+    justify-content: center;
+    &__b{
+    width: 285px;
+    height: 55px;
+    &:hover{
+    background-color: rgb(32, 32, 39);}}
+    &__text{
+     font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 141.69%;
+    letter-spacing: 0%;
+    text-align: center;
+     &:hover{
+    color: rgb(255, 255, 255);
+     }
+    }
+        }
+    .head{
+    align-items: center;
+    &__h1{
+    font-size: 40px;
+    text-align: center;
+    width: 262px;
+    line-height: 49px;
+    padding-top: 139px;
+    }
+    &__p{
+        width: 296px;
+        font-size: 16px;
         text-align: center;
-        width: 322px;
-        line-height: 49px;
-        padding-top: 139px;
-        }
-        &__p{
-            width: 322px;
-            font-size: 16px;
-            text-align: center;
-            line-height: 20px;
-        }
-        }
-            
-            
- .content{
-  display: none;
+        line-height: 20px;
+    }
+    }
+        
+        
+.content{
+display: none;
 }
 .minigames{
-    display: none;
- }
+display: none;
+}
 .footer{
-    height: 100px;
+height: 100px;
 &__p{    
 font-size: 16px;
 font-weight: 600;
 padding-top: 34px;
 }
 }
- }
+}

@@ -285,7 +285,6 @@ body {
     background-repeat: no-repeat;
     background-position-x: 35px;
     background-position-y: -108px;
-    background-size: 124%;
     height: 700px;
   }
   .button {
@@ -317,12 +316,12 @@ body {
   .head__h1 {
     font-size: 40px;
     text-align: center;
-    width: 322px;
+    width: 262px;
     line-height: 49px;
     padding-top: 139px;
   }
   .head__p {
-    width: 322px;
+    width: 296px;
     font-size: 16px;
     text-align: center;
     line-height: 20px;
