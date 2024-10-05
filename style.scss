@@ -25,10 +25,18 @@
     width: 247px;
     height: 66px;
     text-decoration: none;
+    color: rgb(255, 255, 255);
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 237.69%;;
+            text-align: center;
+            &:hover{
+                color: #000;
+            }
             &:hover{
             background-color: #fffefe;}}
             
-           &__text{
+           
             color: rgb(255, 255, 255);
             font-size: 24px;
             font-weight: 600;
@@ -40,7 +48,7 @@
             }
             }
             
-    }
+    
 
 .center {
     padding-left: calc(50% - 600px);

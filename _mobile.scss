@@ -18,18 +18,18 @@
     &__b{
     width: 285px;
     height: 55px;
-    &:hover{
-    background-color: rgb(32, 32, 39);}}
-    &__text{
-     font-family: Montserrat;
+    font-family: Montserrat;
     font-size: 16px;
     font-weight: 600;
-    line-height: 141.69%;
+    line-height: 300%;
     letter-spacing: 0%;
     text-align: center;
      &:hover{
     color: rgb(255, 255, 255);
      }
+    &:hover{
+    background-color: rgb(32, 32, 39);}}
+     
     }
         }
     .head{
@@ -64,4 +64,4 @@ font-weight: 600;
 padding-top: 34px;
 }
 }
-}
+

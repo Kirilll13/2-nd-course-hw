@@ -19,6 +19,12 @@ body {
 
 .button {
   padding-top: 48px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 141.69%;
+  text-align: center;
+  margin-top: 12px;
 }
 .button__b {
   display: block;
@@ -29,19 +35,19 @@ body {
   width: 247px;
   height: 66px;
   text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 237.69%;
+  text-align: center;
+}
+.button__b:hover {
+  color: #000;
 }
 .button__b:hover {
   background-color: #fffefe;
 }
-.button__text {
-  color: rgb(255, 255, 255);
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 141.69%;
-  text-align: center;
-  margin-top: 12px;
-}
-.button__text:hover {
+.button:hover {
   color: #000;
 }
 
@@ -295,49 +301,50 @@ body {
   .button__b {
     width: 285px;
     height: 55px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 300%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  .button__b:hover {
+    color: rgb(255, 255, 255);
   }
   .button__b:hover {
     background-color: rgb(32, 32, 39);
   }
-  .button__text {
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 141.69%;
-    letter-spacing: 0%;
-    text-align: center;
-  }
-  .button__text:hover {
-    color: rgb(255, 255, 255);
-  }
-  .head {
-    align-items: center;
-  }
-  .head__h1 {
-    font-size: 40px;
-    text-align: center;
-    width: 262px;
-    line-height: 49px;
-    padding-top: 139px;
-  }
-  .head__p {
-    width: 296px;
-    font-size: 16px;
-    text-align: center;
-    line-height: 20px;
-  }
-  .content {
-    display: none;
-  }
-  .minigames {
-    display: none;
-  }
-  .footer {
-    height: 100px;
-  }
-  .footer__p {
-    font-size: 16px;
-    font-weight: 600;
-    padding-top: 34px;
-  }
+}
+.head {
+  align-items: center;
+}
+.head__h1 {
+  font-size: 40px;
+  text-align: center;
+  width: 262px;
+  line-height: 49px;
+  padding-top: 139px;
+}
+.head__p {
+  width: 296px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.content {
+  display: none;
+}
+
+.minigames {
+  display: none;
+}
+
+.footer {
+  height: 100px;
+}
+.footer__p {
+  font-size: 16px;
+  font-weight: 600;
+  padding-top: 34px;
 }/*# sourceMappingURL=style.css.map */
