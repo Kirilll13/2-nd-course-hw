@@ -314,37 +314,34 @@ body {
   .button__b:hover {
     background-color: rgb(32, 32, 39);
   }
-}
-.head {
-  align-items: center;
-}
-.head__h1 {
-  font-size: 40px;
-  text-align: center;
-  width: 262px;
-  line-height: 49px;
-  padding-top: 139px;
-}
-.head__p {
-  width: 296px;
-  font-size: 16px;
-  text-align: center;
-  line-height: 20px;
-}
-
-.content {
-  display: none;
-}
-
-.minigames {
-  display: none;
-}
-
-.footer {
-  height: 100px;
-}
-.footer__p {
-  font-size: 16px;
-  font-weight: 600;
-  padding-top: 34px;
+  .head {
+    align-items: center;
+  }
+  .head__h1 {
+    font-size: 40px;
+    text-align: center;
+    width: 262px;
+    line-height: 49px;
+    padding-top: 139px;
+  }
+  .head__p {
+    width: 296px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+  }
+  .content {
+    display: none;
+  }
+  .minigames {
+    display: none;
+  }
+  .footer {
+    height: 100px;
+  }
+  .footer__p {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 34px;
+  }
 }/*# sourceMappingURL=style.css.map */
