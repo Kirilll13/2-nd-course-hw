@@ -239,19 +239,17 @@ body {
   padding: 16px 28px 16px 28px;
   text-decoration: none;
   border: 1px solid rgb(32, 32, 39);
-}
-.gamecard2__a:hover {
-  background-color: #fff;
-}
-.gamecard2__a-p {
   color: rgb(255, 255, 255);
   font-size: 24px;
   font-weight: 600;
   line-height: 141.69%;
   text-align: center;
 }
-.gamecard2__a-p:hover {
+.gamecard2__a:hover {
   color: #000;
+}
+.gamecard2__a:hover {
+  background-color: #fff;
 }
 
 .game1 {
@@ -314,37 +312,97 @@ body {
   .button__b:hover {
     background-color: rgb(32, 32, 39);
   }
-}
-.head {
-  align-items: center;
-}
-.head__h1 {
-  font-size: 40px;
-  text-align: center;
-  width: 262px;
-  line-height: 49px;
-  padding-top: 139px;
-}
-.head__p {
-  width: 296px;
-  font-size: 16px;
-  text-align: center;
-  line-height: 20px;
-}
-
-.content {
-  display: none;
-}
-
-.minigames {
-  display: none;
-}
-
-.footer {
-  height: 100px;
-}
-.footer__p {
-  font-size: 16px;
-  font-weight: 600;
-  padding-top: 34px;
+  .head {
+    align-items: center;
+  }
+  .head__h1 {
+    font-size: 40px;
+    text-align: center;
+    width: 262px;
+    line-height: 49px;
+    padding-top: 139px;
+  }
+  .head__p {
+    width: 296px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 20px;
+  }
+  .content {
+    display: none;
+  }
+  .minigames {
+    height: 3510px;
+    align-items: center;
+  }
+  .headgame {
+    width: 250px;
+    font-size: 40px;
+    line-height: 49px;
+    margin-bottom: 16px;
+    margin-top: 48px;
+    margin-right: 80px;
+  }
+  .game {
+    width: 315px;
+    height: 510.63px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .game__img {
+    width: 315px;
+    height: 284.93px;
+  }
+  .game1 {
+    width: 315px;
+    height: 528.63px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .gamecard2 {
+    gap: 14px;
+    padding: 16px;
+  }
+  .gamecard2__h {
+    width: 284.93px;
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .gamecard2__p {
+    width: 244px;
+    font-size: 16px;
+    line-height: 20px;
+    padding-right: 0px;
+  }
+  .gamecard2__a {
+    width: 226px;
+    height: 30px;
+    padding: 16px 28px 16px 28px;
+    font-size: 16px;
+  }
+  .armobi {
+    height: 261.93px;
+  }
+  .vicmob {
+    height: 495.63px;
+  }
+  .knbmob {
+    height: 557.63px;
+  }
+  .genmob {
+    height: 566.63px;
+  }
+  .kamb {
+    padding-right: 0px;
+  }
+  .footer {
+    height: 100px;
+  }
+  .footer__p {
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 34px;
+  }
 }/*# sourceMappingURL=style.css.map */
