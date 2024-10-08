@@ -23,7 +23,7 @@ const obj = {"Коля" : '200',
 "Петя" : '400',
 }
 for (let key in obj) {
-    console.log(`${key}: ${obj[key]}`);
+    console.log(`${key} - зарплата ${obj[key]} долларов`);
 }
 //task5
 let n = 1000;
