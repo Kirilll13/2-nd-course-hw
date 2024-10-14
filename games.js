@@ -1,11 +1,20 @@
-let a = 32;
+function getRandomInRange(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+  }
+
+
 function ugadaiChislo(){
 let answer = prompt('Попробуй угадать число');
-if (answer == a) {
-    alert('Угадал!');
-} else if ( answer > a) {
-   alert('Меньше'); 
-} else if ( answer < a) {
-    alert('Больше');
+while (answer < getRandomInRange(0,100)) {
+    prompt ('Больше');
+    if (answer === getRandomInRange(0,100)){
+        break;
+    }
+}
+while (answer > getRandomInRange(0,100)) {
+    prompt ('меньше');
+    if (answer === getRandomInRange(0,100)){
+        break;
+    }
 }
 }

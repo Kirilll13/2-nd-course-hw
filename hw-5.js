@@ -1,28 +1,31 @@
 //task1
-function max(a,b) {
+function min(a,b) {
     if(a>b){
-        return a;
-    }else{
         return b;
+    }else if(a=b) {
+        return a;
+    }
+    else {
+        return a;
     }
 }
-console.log(max(11, 9));
+console.log(min(9, 9));
 
 //task2
 function chet (number) {
-    return number % 2 === 0;
+    if(number % 2 === 0){
+        return  'Число четное';
+    }else {
+        return 'Число нечетное';
+    }
 }
-console.log(chet(6));
+console.log(chet(7));
 
 //task3
-function kvadrat (q) {
-    return q ** 2;
-}
-function koren (q) {
-    return (q ** 2) / q ;
-}
-console.log(kvadrat(7));
-console.log(koren (7));
+let kvadrat = Math.pow(7, 2);
+let koren = Math.sqrt(49); 
+console.log(kvadrat);
+console.log(koren);
 
 //task4
 function age(){
@@ -39,12 +42,12 @@ age()
 
 //task5
 function chislo (a,b) {
-    if (isNaN(a,b)) {
+    if (isNaN(a)) {
         return 'Одно или оба значения не являются числом';
     }
     return (a * b);
 }
-console.log(chislo('c',6));
+console.log(chislo(7,6));
 
 //task6
 function num () {
@@ -60,19 +63,19 @@ alert(num())
 const circle1 = {
     radius: 3,
     getArea() {
-        console.log((this.radius ** 2) * 3.14);
+        console.log((this.radius ** 2) * Math.PI);
     },
     getPerimeter() {
-        console.log(this.radius * (2 * 3.14));
+        console.log(this.radius * (2 * Math.PI));
     }
 }
 const circle2 = {
     radius: 4,
     getArea() {
-        console.log((this.radius ** 2) * 3.14);
+        console.log((this.radius ** 2) * Math.PI);
     },
     getPerimeter() {
-        console.log(this.radius * (2 * 3.14));
+        console.log(this.radius * (2 * Math.PI));
     }
 }
 circle1.getArea()
