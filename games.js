@@ -7,14 +7,18 @@ function ugadaiChislo(){
 let answer = prompt('Попробуй угадать число');
 while (answer < getRandomInRange(0,100)) {
     prompt ('Больше');
-    if (answer === getRandomInRange(0,100)){
+    if (answer = getRandomInRange(0,100)){
+        alert('Угадал!');
         break;
+        
     }
 }
 while (answer > getRandomInRange(0,100)) {
     prompt ('меньше');
-    if (answer === getRandomInRange(0,100)){
+    if (answer = getRandomInRange(0,100)){
+        alert('Угадал!');
         break;
+        
     }
 }
 }
