@@ -2,14 +2,14 @@
 function min(a,b) {
     if(a>b){
         return b;
-    }else if(a=b) {
+    }else if(a === b) {
         return a;
     }
     else {
         return a;
     }
 }
-console.log(min(9, 9));
+console.log(min(10, 9));
 
 //task2
 function chet (number) {
@@ -44,10 +44,12 @@ age()
 function chislo (a,b) {
     if (isNaN(a)) {
         return 'Одно или оба значения не являются числом';
+    } else if (isNaN(b)) {
+        return 'Одно или оба значения не являются числом';   
     }
     return (a * b);
 }
-console.log(chislo(7,6));
+console.log(chislo(7,8));
 
 //task6
 function num () {
