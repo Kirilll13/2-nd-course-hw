@@ -38,18 +38,16 @@ if (answer >= 13) {
     alert('Вы ввели неправильное значение');
 }
 }
-age()
+//age()
 
 //task5
 function chislo (a,b) {
-    if (isNaN(a)) {
-        return 'Одно или оба значения не являются числом';
-    } else if (isNaN(b)) {
-        return 'Одно или оба значения не являются числом';   
+    if (isNaN(a && b)) {
+        return 'Одно или оба значения не являются числом'; 
     }
     return (a * b);
 }
-console.log(chislo(7,8));
+console.log(chislo(7,'b'));
 
 //task6
 function num () {
@@ -59,7 +57,7 @@ function num () {
     }
     return `a в кубе равняется ${answers ** 3}`;
 }
-alert(num())
+//alert(num())
 
 //task7
 const circle1 = {
