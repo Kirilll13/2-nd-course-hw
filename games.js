@@ -22,3 +22,51 @@ while (a !== b) {
     }
 }
 }
+
+function arifmetica() {
+    function getRandomInt(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * 100);
+    }
+    const randch1 = getRandomInt(0,100);
+    const randch2 = getRandomInt(0,100);
+    const signs = [`+`, `-`, `*`, `/`];
+    const randomIndex = Math.floor(Math.random() * (signs.length));
+    let randomSign =  signs[randomIndex];
+    function getResult() {
+        let answer ;
+        let task;
+        let result;
+        switch (randomSign) {
+            case `+` :
+                task = (`${randch1} + ${randch2}`);
+                result = randch1 + randch2;
+                answer = prompt(`Решите задачу \n ${task}`);
+                break;
+            case `-` :
+                task = (`${randch1} - ${randch2}`);
+                result = randch1 - randch2;
+                answer = prompt(`Решите задачу \n ${task}`);
+                break;
+            case `*` :
+                task = (`${randch1} * ${randch2}`);
+                result = randch1 * randch2;
+                answer = prompt(`Решите задачу \n ${task}`);
+                break;
+            case `/` :
+                task = (`${randch1} / ${randch2}`);
+                result = randch1 / randch2;
+                answer = prompt(`Решите задачу \n ${task}`);
+                break;  
+                default:
+                alert("Не то");  
+        }
+        if (answer == result) {
+            alert('Решено правильно');
+        } else {
+            alert('Решено не верно')
+        }
+    }
+    return (getResult());
+}
