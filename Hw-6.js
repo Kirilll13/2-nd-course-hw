@@ -1,14 +1,17 @@
 //task1
 const mass=[1, 5, 4, 10, 0, 3];
-for(let a=0; a<mass[3]; a++) {
-    if(mass[a] ==10) break;
+for(let a = 0; a < mass.length; a++) {
     console.log(mass[a]);
+    if (mass[a] === 10) {
+        break;
+    }
+
+   
 }
 //task2
 const mass1=[1, 5, 4, 10, 0, 3];
-mass1.forEach((el, index) =>{
-    console.log(`${index}: ${el}`);
-});
+console.log(mass1.indexOf(4));
+
 //task3
 const mass2 = [1, 3, 5, 10, 20];
 let jt = mass2.join(" ");
@@ -85,9 +88,7 @@ for (let i = 0; i < mass13.length; i++) {
 }
 console.log(evenMass13);
 //task15
-function rand() {
-    return Math.floor(Math.random() * 10);
-}
+
 const mass14 = [];
 for (let i = 0; i < 10; i++) {
     mass14.push(rand());
