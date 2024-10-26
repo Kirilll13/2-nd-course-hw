@@ -104,7 +104,7 @@ function victorina() {
     if (quizQuestion == quiz[i][`correctAnswer`]){
         answ++;
         alert(`Верно`);
-    }else ('Не верно');
+    }else ( alert('Не верно'));
    }
    alert(`Вы ответили на ${answ} вопросов из 3`)
 }
