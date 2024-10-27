@@ -5,13 +5,9 @@ console.log(a.toUpperCase());
 function search() {
 const items = ['махровый диван', 'деревянный стул','деревянный стол','деревянная дверь'];
 const find = 'деревянн';
-items.forEach((items) => {
-    if (items.startsWith(find)){
-        console.log(items);
-    }
-})
+    return items.filter(str => str.toLowerCase().startsWith(find.toLowerCase()));
 }
-search()
+console.log(search());
 //task3
 let num = 32.58884;
 console.log(Math.floor(num));
@@ -26,12 +22,14 @@ function randomNumber(){
 }
 console.log(randomNumber());
 //task6
-function randomMassive(num) {
-    for (q = 0; q < (num / 2); q++) {
-        console.log(Math.round(Math.random(q)));
+const giveMeRandom = function(n) {
+    let arrWithNums = [];
+    for(i = 0; i < n / 2; i++) {
+      arrWithNums.push(Math.floor(Math.random() * 10)); 
     }
+    return arrWithNums;
 }
-randomMassive(6)
+console.log(giveMeRandom(8));
 //task7
 function getRandomInRange(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -54,3 +52,7 @@ const months = ["Январь", "Февраль", "Март", "Апрель", "�
 let myDate = new Date(2023,4,2,11,20);
 let today = 'Дата:' + ` ` + myDate.getDate() + ` ` + months[myDate.getMonth()] + ` ` + myDate.getFullYear() + ` `  + `это -` + ` ` + days[myDate.getDay()] + ` ` + `Время:` + myDate.getHours() + `.` + myDate.getMinutes() ;
 console.log(today);
+
+
+
+
