@@ -108,3 +108,51 @@ function victorina() {
    }
    alert(`Вы ответили на ${answ} вопросов из 3`)
 }
+
+//game5
+function tsuEFa() {
+const options = [`камень`, `ножницы`, `бумага`,];
+const randomIndex = Math.floor(Math.random() * (options.length));
+let randomOptions = options[randomIndex];
+console.log(randomOptions);
+function moveUser() {
+let userChoice = (prompt(`Давай сыграем в "Камень Ножницы Бумага"? \nНапиши "камень", "ножницы" или "бумага".`)).toLowerCase();
+if (userChoice == 'камень' || userChoice == 'ножницы' || userChoice == 'бумага') {
+    switch (randomOptions) {
+    case `камень`:
+    if (userChoice == `ножницы`) {
+        alert(`Вы проиграли`);
+    } else if (userChoice == `бумага`) {
+        alert(`Вы выиграли`);
+    } else {
+        alert(`ничья`);
+    }
+    break;
+    case `ножницы`:
+    if (userChoice == `бумага`) {
+        alert(`Вы проиграли`);
+    } else if (userChoice == `камень`) {
+        alert(`Вы выиграли`);
+    } else {
+        alert(`ничья`);
+    }
+    break;
+    case `бумага`:
+        if (userChoice == `камень`) {
+            alert(`Вы проиграли`);
+        } else if (userChoice == `ножницы`) {
+            alert(`Вы выиграли`);
+        } else {
+            alert(`ничья`);
+        }
+        break;
+    default:
+    alert("Нет таких значений");
+}
+
+} else {
+    alert(`Вы ввели неверное значение`);
+}
+    }
+    moveUser();
+}
