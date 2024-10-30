@@ -1,3 +1,4 @@
+//game 1
 function getRandomInRange(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
   }
@@ -22,7 +23,7 @@ while (a !== b) {
     }
 }
 }
-
+//game 2
 function arifmetica() {
     function getRandomInt(min, max) {
     min = Math.ceil(min);
@@ -69,4 +70,41 @@ function arifmetica() {
         }
     }
     return (getResult());
+}
+// game 3
+function reversText(){
+let word = prompt('Введи слово, мы его перевернем');
+let wordsp = word.split('');
+let revs = wordsp.reverse();
+let reversWord = revs.join('');
+alert(reversWord);
+}
+//game 4
+function victorina() {
+    const quiz = [
+        {
+            question: "Какой цвет неба?",
+            options: ["1. Красный", "2. Синий", "3. Зеленый"],
+            correctAnswer: 2 
+        },
+        {
+            question: "Сколько дней в неделе?",
+            options: ["1. Шесть", "2. Семь", "3. Восемь"],
+            correctAnswer: 2
+        },
+        {
+            question: "Сколько у человека пальцев на одной руке?",
+            options: ["1. Четыре", "2. Пять", "3. Шесть"],
+            correctAnswer: 2
+        }
+    ];
+    let answ = 0
+   for (let i = 0; i < quiz.length; i++){
+    let quizQuestion = Number(prompt(`Выберите ответ \n ${quiz[i].question} \n ${quiz[i].options}`));
+    if (quizQuestion == quiz[i][`correctAnswer`]){
+        answ++;
+        alert(`Верно`);
+    }else ( alert('Не верно'));
+   }
+   alert(`Вы ответили на ${answ} вопросов из 3`)
 }
