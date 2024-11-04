@@ -108,3 +108,46 @@ function victorina() {
    }
    alert(`Вы ответили на ${answ} вопросов из 3`)
 }
+
+//game5
+function tsuEFa() {
+const options = [`камень`, `ножницы`, `бумага`,];
+const randomIndex = Math.floor(Math.random() * (options.length));
+let randomOptions = options[randomIndex];
+const resultTsu = (userChoice, randomOptions) => {
+   
+    if (
+    (userChoice == 'ножницы' && randomOptions === 'бумага') ||
+    (userChoice == 'бумага' && randomOptions === 'камень') ||
+    (userChoice == 'камень' && randomOptions === 'ножницы') 
+    ){
+        return (`Победа, компьютер выбрал "${randomOptions}"`);
+    }
+    if (userChoice === randomOptions) {
+        return (`Ничья, компьютер выбрал "${randomOptions}"`);
+    }
+    if (userChoice !== 'ножницы' && 'бумага' && 'камень') {
+        return (' Играешь не по правилам');
+    }
+    return (`Поражение, компьютер выбрал "${randomOptions}"`);
+}
+    let userChoice = (prompt(`Давай сыграем в "Камень Ножницы Бумага"? \nНапиши "камень", "ножницы" или "бумага".`)).toLowerCase();
+    alert(resultTsu(userChoice, randomOptions))
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
