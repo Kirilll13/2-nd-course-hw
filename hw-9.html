@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hw-9.css">
+</head>
+<body>
+<!-- task1 -->
+<h1 class="text">Заголовок</h1>
+<button class="btn">скрыть текст</button> 
+<!-- task2 -->
+<p class="par">тест</p>
+<button class="btn2"> Изменить цвет</button>
+<!-- task3 -->
+<h1 class="text2">Заголовок</h1>
+<button class="btn3">Изменить текст</button> 
+<!-- task4 -->
+<h1 class="description">Lorem.</h1>
+<h2 class="description">Lorem, ipsum.</h2>
+<p class ="description">Lorem, ipsum dolor.</p>
+<!-- task6 -->
+<button class="btn6"> Добавить текст</button>
+<!-- task7 -->
+ <p class="description1">Lorem, ipsum.</p>
+ <p class="description1">Lorem, ipsum.</p>
+ <p class="description1">Lorem, ipsum.</p>
+<button class="btn7">Удалить</button>
+<script>
+//task1
+const textEl = document.querySelector('.text');
+const btnEl = document.querySelector('.btn');
+btnEl.addEventListener('click', () => {
+    textEl.classList.toggle('text_none')
+})
+//task2
+const parEl = document.querySelector('.par');
+const btn2El = document.querySelector('.btn2');
+btn2El.addEventListener('click', () => {
+    parEl.style.color = 'blue';
+})
+//task3
+const text2El = document.querySelector('.text2');
+const btn3El = document.querySelector('.btn3');
+btn3El.addEventListener('click', () => {
+   text2El.textContent = 'Привет, мир!';
+})
+//task4
+const allTextEl = document.querySelectorAll('.description');
+allTextEl.forEach(element => {
+    element.textContent = 'Измененный текст';
+})
+//task6
+const btn6El = document.querySelector('.btn6');
+btn6El.addEventListener('click', () => {
+   const newPar = document.createElement('p');
+   newPar.textContent = 'Новый абзац';
+   document.body.appendChild(newPar);
+});
+//task7
+const btn7El = document.querySelector('.btn7');
+btn7El.addEventListener('click', () => {
+const firstParEl = document.querySelector('.description1');  
+firstParEl.remove() 
+});
+</script>
+</body>
+</html>
