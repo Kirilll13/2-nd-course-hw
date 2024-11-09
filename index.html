@@ -19,9 +19,26 @@
 </div>
 <div class="button">
 <a class="button__b" href="#ab">Поехали!</a>
+
 </div>
 </div>
-<div class="content center">
+<div class="anim">
+<div class="scroll">
+<p class="scroll__p" >викторина</p>
+<img src="img/Star.svg" alt="star">
+ <p class="scroll__p">угадай число</p>
+ <img src="img/Star.svg" alt="star"> 
+ <p class="scroll__p">переверни текст</p> 
+ <img src="img/Star.svg" alt="star">
+ <p class="scroll__p">простая арифметика</p> 
+ <img src="img/Star.svg" alt="star">
+ <p class="scroll__p">камень,ножницы,бумага</p> 
+ <img src="img/Star.svg" alt="star">
+ <p class="scroll__p">генератор случайных цветов</p>
+ <img src="img/Star.svg" alt="star">
+</div>
+</div>
+<div  class="content center">
 
     <div class="about" id="ab">
         <h1 class="about__title">Об играх</h1>
@@ -113,7 +130,7 @@
     </div>
 </div>
 </div>
-<div class="minigames center">
+<div id = "randcol"  class="minigames center">
 <h1 class="headgame">Мини-игры</h1>
 <div class="game" id="ch">
 <img class="game__img" src="img/chislo.png" alt="chislo">
@@ -172,17 +189,14 @@
 <p class="gamecard2__p gen">
     Игра, в которой при клике на кнопку фон страницы меняется на случайный.
 </p>
-<a class="gamecard2__a" href="#gen">Играть!</a>
+<a onclick="generateRandomColour()" class="gamecard2__a" href="#gen">Играть!</a>
 </div>
 </div>
 </div>
 <footer class="footer center">
 <p class="footer__p">Все права защищены.</p>
 </footer>
-
-    
-
 <script src="games.js"></script>
-<script src="hw-8.js"></script>
+
 </body>
 </html>
