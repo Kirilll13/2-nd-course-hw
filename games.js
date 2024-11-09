@@ -134,7 +134,19 @@ const resultTsu = (userChoice, randomOptions) => {
     let userChoice = (prompt(`Давай сыграем в "Камень Ножницы Бумага"? \nНапиши "камень", "ножницы" или "бумага".`)).toLowerCase();
     alert(resultTsu(userChoice, randomOptions))
 }
+//game 6
+function generateRandomColour() {
+    
+    const color = "0123456789ABCDEF";
+   let randomColor = "#";
+    for (let i = 0; i < 6; i++) {
+      randomColor += color[Math.floor(Math.random() * color.length)];
+    }
+  
+    document.getElementById('randcol').style.backgroundColor = randomColor;
+     
 
+}
 
 
 

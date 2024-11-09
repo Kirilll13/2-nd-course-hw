@@ -35,8 +35,6 @@
             }
             &:hover{
             background-color: #fffefe;}}
-            
-           
             color: rgb(255, 255, 255);
             font-size: 24px;
             font-weight: 600;
@@ -47,7 +45,43 @@
                 color: #000;
             }
             }
-            
+.anim{
+max-width: 100%;
+overflow: hidden;
+background: rgb(188, 236, 48);
+@keyframes scroll-left {
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+}
+ .scroll{
+width: 3220px;
+height: 90px;
+padding: 27px 49px 27px 49px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(50px);
+display: flex;
+gap: 51px ;
+
+animation: scroll-left 10s linear infinite;
+animation-direction: alternate;
+
+&__p {
+    color: rgb(32, 32, 39);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 110%;
+    letter-spacing: 4%;
+    text-align: left;
+    text-transform: uppercase;
+}
+ }           
     
 
 .center {
